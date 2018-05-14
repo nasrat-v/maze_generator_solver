@@ -12,6 +12,9 @@ The * character represent empty fields.
 The X character represent walls.
 A maze always start with a * in top left and always finish with a * in bottom right.
 
+Result for generation of perfect 50x50 maze:
+![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/generation_perfect_50x50.png)
+
 ## Compile
 compiling:
     
@@ -53,6 +56,11 @@ The solver is a backtracking algorithm.
 
 Ncurses library is used to display the output in slow motion.
 You can choose the speed (in milliseconds) of the slow motion with the Macro UTIME_TO_WAIT in solver.h file.
+The walls are in blue and the empty fieds are in black.
+The bad way travelled by the algorithm is in yellow. The good one is in red.
+
+Result for solving perfect 50x50 maze:
+[alt text!](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/solve_perfect_50x50.png)
 
 ## Compile
 compiling:
