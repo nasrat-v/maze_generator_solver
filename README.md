@@ -57,6 +57,7 @@ The solver is a backtracking algorithm.
 
 Ncurses library is used to display the output in slow motion.
 You can choose the speed (in milliseconds) of the slow motion with the Macro UTIME_TO_WAIT in solver.h file.
+
 The walls are in blue and the empty fieds are in black.
 The bad way travelled by the algorithm is in yellow. The good one is in red.
 
