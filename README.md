@@ -1,6 +1,6 @@
 # maze_generator_solver
-### Kruskal maze generator
-### Backtracking maze solver
+### - Kruskal maze generator
+### - Backtracking maze solver
 
 # Generator
 The generator is a randomized kruskal algorithm.
@@ -76,5 +76,5 @@ cleaning all and compile:
 Execute binarys' solver with the maze map in parameter:
 
     ./solver perfect_maze.map
-    
-To test the solver you have perfect and imperfect example maps in the "mazes" folder.
+
+To test the solution you have examples of perfect and imperfect labyrinths in the "mazes" folder.
