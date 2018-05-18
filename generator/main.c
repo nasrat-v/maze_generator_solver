@@ -50,7 +50,7 @@ int		main(int ac, char **av)
 	    while (++st.i < st.n)
 	      delete_no_perfect(&st);
 	  put_door(&st);
-	  //	  print_tab(&st);
+	  print_tab(&st);
 	}
       else
 	return (print_usage());
