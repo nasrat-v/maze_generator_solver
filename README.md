@@ -7,7 +7,7 @@
 ### - Backtracking maze solver
 
 ##### Time without display:
-![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/solve_time_250x250.png)
+For perfect 250x250 it's instantanly solve.
 
 # Generator
 The generator is a randomized kruskal algorithm.
