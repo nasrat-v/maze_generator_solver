@@ -1,6 +1,11 @@
 # maze_generator_solver
 ### - Kruskal maze generator
+
+![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/create_time_perfect_250x250.png)
+
 ### - Backtracking maze solver
+
+![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/solve_time_perfect_250x250.png)
 
 # Generator
 The generator is a randomized kruskal algorithm.
@@ -15,6 +20,10 @@ A maze always start with a * in top left and is always solvable.
 ## Result for generation of perfect 50x50 maze:
 
 ![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/generation_perfect_50x50.png)
+
+## Result for generation of imperfect 50x50 maze:
+
+![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/generation_imperfect_50x50.png)
 
 ## Compile
 compiling:
@@ -37,20 +46,15 @@ cleaning all and compile:
 ## How to use it
 For perfect maze:
  
-    ./generator [WIDTH] [HEIGHT] parfait
+    ./generator [WIDTH] [HEIGHT] perfect
     
 For imperfect maze:
 
-    ./generator [WIDTH] [HEIGHT] imparfait
-    
-    
-by default this command generate perfect maze too:
-
-    ./generator [WIDTH] [HEIGHT]
+    ./generator [WIDTH] [HEIGHT] imperfect
     
 Redirect the result in a file to save it:
 
-    ./generator [WIDTH] [HEIGHT] parfait > perfect_maze.map
+    ./generator [WIDTH] [HEIGHT] perfect > perfect_maze.map
     
 # Solver
 The solver is a backtracking algorithm.
