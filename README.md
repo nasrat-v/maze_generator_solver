@@ -10,7 +10,7 @@ You can generate perfect and imperfect maze.
 
 The * character represent empty fields.
 The X character represent walls.
-A maze always start with a * in top left and always finish with a * in bottom right.
+A maze always start with a * in top left and is always solvable.
 
 ## Result for generation of perfect 50x50 maze:
 
