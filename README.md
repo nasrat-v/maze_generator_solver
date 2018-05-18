@@ -1,11 +1,11 @@
 # maze_generator_solver
 ### - Kruskal maze generator
 
-![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/create_time_perfect_250x250.png)
+![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/create_time_250x250.png)
 
 ### - Backtracking maze solver
 
-![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/solve_time_perfect_250x250.png)
+![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/solve_time_250x250.png)
 
 # Generator
 The generator is a randomized kruskal algorithm.
