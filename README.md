@@ -1,10 +1,12 @@
 # maze_generator_solver
 ### - Kruskal maze generator
 
+##### Time without display:
 ![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/create_time_250x250.png)
 
 ### - Backtracking maze solver
 
+##### Time without display:
 ![alt text](https://raw.githubusercontent.com/nasrat-v/maze_generator_solver/master/img/solve_time_250x250.png)
 
 # Generator
